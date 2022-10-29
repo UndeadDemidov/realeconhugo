@@ -1,4 +1,4 @@
-baseURL = 'https://UndeadDemidov.github.io/realeconhugo'
+baseURL = 'https://UndeadDemidov.github.io'
 
 languageCode = 'ru-ru'
 DefaultContentLanguage = "ru"
@@ -22,6 +22,7 @@ menu_exclusion = [
     "entry",
     "post",
     "posts",
+    "links",
 ]
 
 [menu]
@@ -37,3 +38,25 @@ menu_exclusion = [
         weight = 1
         identifier = 'links'
         pre = "<i class='fa fa-bookmark'></i>&nbsp;"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
