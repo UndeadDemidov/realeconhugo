@@ -1,4 +1,4 @@
 baseURL = 'https://UndeadDemidov.github.io/realeconhugo'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Основый реальной экономики'
 theme = "hugo-theme-techdoc"
