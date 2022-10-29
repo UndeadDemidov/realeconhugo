@@ -1,4 +1,39 @@
 baseURL = 'https://UndeadDemidov.github.io/realeconhugo'
-languageCode = 'en-us'
+
+languageCode = 'ru-ru'
+DefaultContentLanguage = "ru"
+
 title = 'Основый реальной экономики'
 theme = "hugo-theme-techdoc"
+
+hasCJKLanguage = true
+metaDataFormat = "yaml"
+
+[params]
+# Documentation Menu section
+# Menu style settings
+menu_style = "open-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
+
+# path name excluded from documentation menu
+menu_exclusion = [
+    "archives",
+    "archive",
+    "blog",
+    "entry",
+    "post",
+    "posts",
+]
+
+[menu]
+    [[menu.main]]
+        name = ""
+        url = "/"
+        weight = 1
+        identifier = 'home'
+        pre = "<i class='fa fa-home'></i>&nbsp;"
+    [[menu.main]]
+        name = "Ссылки"
+        url = "/links"
+        weight = 1
+        identifier = 'links'
+        pre = "<i class='fa fa-bookmark'></i>&nbsp;"
