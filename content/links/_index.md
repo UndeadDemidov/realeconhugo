@@ -11,3 +11,4 @@ weight: 120
  - [crimsonalter Иван Данилов - telegram канал](https://t.me/crimsondigest)
  - [crimsonalter Иван Данилов - sponsr.ru](https://sponsr.ru/crimsonanalytics/)
  - [Игорь Алабужин - telegram канал](https://t.me/sustaincoll)
+ - 
