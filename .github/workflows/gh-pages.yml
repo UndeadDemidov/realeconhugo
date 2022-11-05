@@ -28,6 +28,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.TOKEN }}
+          deploy_key: ${{ secrets.TOKEN }}
+          external_repository: github.com/UndeadDemidov/realeconhugo.github.io
           publish_dir: ./public
 
