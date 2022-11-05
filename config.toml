@@ -1,4 +1,4 @@
-baseURL = 'https://realecon.ru/'
+baseURL = 'https://www.realecon.ru/'
 
 languageCode = 'ru-ru'
 DefaultContentLanguage = "ru"
