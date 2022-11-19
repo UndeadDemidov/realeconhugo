@@ -3,7 +3,7 @@ baseURL = 'https://www.realecon.ru/'
 languageCode = 'ru-ru'
 DefaultContentLanguage = "ru"
 
-title = 'Основый реальной экономики'
+title = 'Основы реальной экономики'
 theme = "hugo-theme-techdoc"
 
 hasCJKLanguage = true

@@ -16,3 +16,6 @@
 
 # IDE configuration files
 *.code-workspace
+
+# MacOs
+.DS_Store
